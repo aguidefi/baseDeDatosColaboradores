@@ -21,6 +21,7 @@ function App() {
         </div>
         <div className="formContainer col">
             <Formulario setColaboradores = {setColaboradores} colaboradores ={colaboradores} setVerificacion={setVerificacion} />
+            <Alert mensaje= {verificacion} />
         </div>
 
     </div>
